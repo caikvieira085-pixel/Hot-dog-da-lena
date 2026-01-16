@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Dog Delícia - Venda de Hot Dogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .item {
+            background: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .item:hover {
+            transform: scale(1.05);
+        }
+        
+        .item img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #e03e00;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hot Dog Delícia</h1>
+        <p>Os melhores hot dogs da cidade! Peça agora e receba em casa.</p>
+    </header>
+    
+    <div class="container">
+        <h2>Nossos Hot Dogs</h2>
+        <div class="menu">
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Hot+Dog+Clássico" alt="Hot Dog Clássico">
+                <h3>Hot Dog Clássico</h3>
+                <p>Salsicha, pão, ketchup e mostarda. R$ 8,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Hot+Dog+Completo" alt="Hot Dog Completo">
+                <h3>Hot Dog Completo</h3>
+                <p>Com queijo, bacon, cebola e molhos especiais. R$ 12,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Hot+Dog+Vegano" alt="Hot Dog Vegano">
+                <h3>Hot Dog Vegano</h3>
+                <p>Salsicha vegetal, pão integral e molhos naturais. R$ 10,00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        
+        <h2>Como Pedir</h2>
+        <p>Ligue para (11) 9999-9999 ou envie um e-mail para pedidos@hotdogdelicia.com. Entregamos em até 30 minutos!</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Hot Dog Delícia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
